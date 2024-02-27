@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    font-size: 24px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.main {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.about-heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-intro,
+.about-location,
+.about-hope {
+    margin-bottom: 10px;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.social-links {
+    margin-top: 40px;
+}
+
+.social-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.social-link {
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-text {
+    font-size: 16px;
+}
+
+

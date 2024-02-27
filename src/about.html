@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="/src/styles/about.scss">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+
+
+        .container {
+            padding: 20px;  
+            max-width: 1200px;  
+            margin: 0 auto;  
+        }
+
+        .profile {
+            text-align: center;
+        }
+
+        .profile-pic {
+            border-radius: 50%; 
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        .name {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .age-location {
+            margin-bottom: 20px;
+        }
+
+        .bio {
+            margin-bottom: 20px;
+        }
+
+        .about {
+            text-align: left;
+        }
+
+        .about__item {
+            margin-bottom: 10px;
+        }
+        .navigation {
+            margin-top: 10px;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .nav-link {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 15px;
+            transition: color 0.3s ease;
+        }
+        .nav-link:hover {
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navigation">
+            <a href="/src/index.html" class="nav-link">Main Page</a>
+            <a href="/src/sec.html" class="nav-link">Places I have visited</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="profile">
+            <img src="/src/media/IMG_6253.png" alt="Profile Picture" class="profile-pic">
+            <h1 class="name">Vura Robert</h1>
+            <p class="age-location">17 years old | Romania</p>
+            <p class="bio">Hello, I'm Vura Robert. I love traveling and capturing moments.</p>
+            <div class="about">
+                <p class="about__item">I am in the 11th grade at the most prestigious school in my town.</p>
+                <p class="about__item">I aspire to be a successful lawyer.</p>
+                <p class="about__item">I love to go out and party on weekends with my friends.</p>
+                <p class="about__item">Thanks for your time.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

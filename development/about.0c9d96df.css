@@ -1,0 +1,91 @@
+body {
+  color: #fff;
+  background-image: url("IMG_6776.1722bde4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+
+header {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.navigation {
+  display: flex;
+}
+
+.nav-link {
+  color: #fff;
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+.nav-link:hover {
+  color: #ffc107;
+}
+
+.container {
+  text-align: center;
+  background-color: #0009;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.name {
+  color: #ffc107;
+  margin-bottom: 10px;
+  font-size: 36px;
+}
+
+.age-location {
+  color: #ffc107;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.bio {
+  color: #ffc107;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.about {
+  text-align: left;
+}
+
+.about__item {
+  color: #ffc107;
+  margin-bottom: 10px;
+}
+
+header {
+  text-align: center;
+  font-display: flex;
+  background-color: #00000080;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  margin-left: -20px;
+  padding: 10px 0;
+  display: flex;
+}
+
+/*# sourceMappingURL=about.0c9d96df.css.map */

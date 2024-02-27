@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="/sec.35733be0.css">
+    <style>body {
+  background-image: url("IMG_1448.4ed5b7fa.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 4px #00000080;
+  margin-bottom: 30px;
+  font-size: 36px;
+}
+
+.photo-grid {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  display: grid;
+}
+
+.photo-item {
+  text-align: center;
+  background-color: #fffc;
+  border-radius: 15px;
+  transition: transform .3s;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 10px #0000004d;
+}
+
+.photo-item:hover {
+  transform: translateY(-5px);
+}
+
+.photo-item img {
+  border-radius: 15px;
+  max-width: 100%;
+  transition: transform .3s;
+}
+
+.photo-item:hover img {
+  transform: scale(1.05);
+}
+
+.photo-title {
+  color: #fff;
+  opacity: 0;
+  background-color: #000000b3;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 18px;
+  transition: opacity .3s;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.photo-item:hover .photo-title {
+  opacity: 1;
+}
+
+header {
+  text-align: center;
+  background-color: #00000080;
+  margin-bottom: 20px;
+  padding: 10px 0;
+}
+
+.navigation {
+  margin-top: 10px;
+}
+
+.nav-link {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+.nav-link:hover {
+  color: #ccc;
+}
+
+</style>
+</head>
+<body>
+    <header>
+        <div class="navigation">
+            <a href="/index.html" class="nav-link">Main Page</a>
+            <a href="/about.html" class="nav-link">About me</a>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Photo Gallery</h1>
+        <div class="photo-grid">
+            <div class="photo-item">
+                <img src="/IMG_6707.aec63649.png" alt="Photo 1">
+                <div class="photo-title">First time on a Plane</div>
+            </div>
+            <div class="photo-item">
+                <img src="/IMG_6801.6257d673.png" alt="Photo 2">
+                <div class="photo-title">Alhambra</div>
+            </div>
+            <div class="photo-item">
+                <img src="/IMG_6786.b4457939.png" alt="Photo 3">
+                <div class="photo-title">Alhambra</div>
+            </div>
+            <div class="photo-item">
+                <img src="/IMG_1248.48be1f01.png" alt="Photo 4">
+                <div class="photo-title">Untold</div>
+            </div>
+            <div class="photo-item">
+                <img src="/IMG_3231.b9c37231.png" alt="Photo 5">
+                <div class="photo-title">Untold</div>
+            </div>
+            <div class="photo-item">
+                <img src="/IMG_4919.58489b3a.png" alt="Photo 6">
+                <div class="photo-title">San Marino</div>
+            </div>
+            <div class="photo-item">
+                <img src="/IMG_3427.43b3f1d2.png" alt="Photo 7">
+                <div class="photo-title">Positano</div>
+            </div>
+            <div class="photo-item">
+                <img src="/IMG_3605.236cd7d0.png" alt="Photo 8">
+                <div class="photo-title">At an event with my brother</div>
+            </div>
+            <div class="photo-item">
+                <img src="/IMG_6502.33d351ec.png" alt="Photo 9">
+                <div class="photo-title">Areseni</div>
+            </div>
+        </div>
+    </div>
+<script src="/sec.d476ba75.js"></script></body>
+</html>
